@@ -13,7 +13,7 @@ public class Task2 {
         int sum = 0;
 
         for (int i = 0; i < arr.length; i++) {
-            for (int j = 0; j < 2; j++) { // ArrayIndexOutOfBoundsException - размер массива может быть меньше 5
+            for (int j = 0; j < 5; j++) { // ArrayIndexOutOfBoundsException - размер массива может быть меньше 5
                 int val = Integer.parseInt(arr[i][j]);
                 sum += val; }
         }
